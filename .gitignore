@@ -1,0 +1,54 @@
+# --- Local / editor metadata (paths, sessions, caches; keep shared Cursor rules) ---
+.cursor/*
+
+.codex/*
+
+# Workspace-specific editor state
+*.code-workspace.local
+.vscode/*
+
+# Environment and secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- ML / experiments (large or machine-local) ---
+wandb/
+lightning_logs/
+*.ckpt
+*.pth
+*.pt
+outputs/
+runs/
